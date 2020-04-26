@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+<h1>Welcome to the Flask MVC template with bootstrap</h1>
+<div>
+    <div class="d-flex justify-content-center">
+        <p>You can put stuff in here.</p>
+    </div>
+    {% include 'cards/cards.html' %}
+</div>
+{% endblock %}
